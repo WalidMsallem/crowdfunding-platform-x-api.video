@@ -165,6 +165,12 @@ const ProjectsListStyled = styled.section`
   width: 100%;
   height: auto;
   background-color: #f1f1f1;
+  
+    @media only screen and (max-width: 720px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 `
 const ProjectItemStyled = styled.div`
   margin: 10px;
