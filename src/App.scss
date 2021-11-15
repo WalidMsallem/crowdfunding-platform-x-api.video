@@ -1,4 +1,4 @@
- .ant-upload-text-icon {
+.ant-upload-text-icon {
 	padding: 8px;
 }
 .ant-upload-text-icon span {
@@ -9,8 +9,8 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  height: 65vh;
-  margin-bottom: 30px;
+	height: 65vh;
+	margin-bottom: 30px;
 }
 .iframe-container iframe {
 	width: 80%;
@@ -120,6 +120,15 @@ h2 {
 	justify-content: center;
 	flex-direction: row;
 	align-items: center;
+	@media only screen and (max-width: 720px) {
+		flex-direction: column;
+		.headline-bloc {
+			width: 80% !important;
+		}
+		.img-block {
+			display: none;
+		}
+	}
 }
 
 .features {
@@ -382,37 +391,34 @@ input {
 }
 
 .main-layout {
-
-    &__content{
-      background-color: #ebebeb;
-      min-height: 95vh;
-    }
-
+	&__content {
+		background-color: #ebebeb;
+		min-height: 95vh;
+	}
 }
 
 @media (max-width: 480px) {
-  
-  .ant-picker-panels {
-    display: flex;
-flex-direction: column;
-  }
-  .ant-picker{
-width: 60%;
-  }
+	.ant-picker-panels {
+		display: flex;
+		flex-direction: column;
+	}
+	.ant-picker {
+		width: 60%;
+	}
 
-  .ant-avatar{
-    width: 70px !important;
-    height: 40px!important;
-  }
-  .ant-avatar-string{
-    line-height: 41px!important;
-  }
+	.ant-avatar {
+		width: 70px !important;
+		height: 40px !important;
+	}
+	.ant-avatar-string {
+		line-height: 41px !important;
+	}
 }
-.logo{
-  color : rgb(73, 185, 236);
-  font-size: 18px;
-  margin: 0 15px;
+.logo {
+	color: rgb(73, 185, 236);
+	font-size: 18px;
+	margin: 0 15px;
 }
-.steps-content{
-    padding: 25px 30px ;
-  }
+.steps-content {
+	padding: 25px 30px;
+}
