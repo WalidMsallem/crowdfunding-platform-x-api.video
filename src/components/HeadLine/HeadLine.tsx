@@ -27,7 +27,7 @@ const HeadLine = (): JSX.Element => {
           </Button>
         </div>
       </div>
-      <div className="headline-bloc">
+      <div className="headline-bloc img-block">
         <img src="./crowdfunding.jpeg" alt="headline-img" />
       </div>
     </HeadLineStyled>
