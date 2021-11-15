@@ -3,19 +3,19 @@ link : https://api.video/
 
 ## Quick start
 
-1.  Make sure that you have Node.js v8.15.1 and npm v5 or above installed.
+1.  Make sure that you have Node.js and yarn installed.
 2. To ensure that the demo runs smoothly, please install the browser extension: Cross Domain - CORS.
 here the link: https://chrome.google.com/webstore/detail/cross-domain-cors/mjhpgnbimicffchbodmgfnemoghjakai
 2.  Clone this repo using `git clone git@github.com:WalidMsallem/crowdfunding-platform-x-api.video.git` 
 3.  Move to the appropriate directory: `cd crowdfunding-platform-x-api.video`.
  
-4.  Run `npm run install` in order to install all dependencies. 
+4.  Run `yarn` in order to install all dependencies. 
 ````
-$ npm install
+$ yarn
 ````
-5.  Run `npm start`.
+5.  Run `yarn start`.
 ````
-$ npm start
+$ yarn start
 ````
  
  _At this point the frontend will run under `http://localhost:4000`._
