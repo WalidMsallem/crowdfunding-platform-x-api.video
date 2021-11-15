@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+// Sass variables
+
+//blue
+$dark-blue: #18204b;
+$blue: #49b9ec;
+$light-blue:#C5F6F6;
+$soft-blue:#EFFFFF;
+$grey-blue:#718B86;
+//white
+$white: #fff;
+//red
+$primary : #AF0404;
+$red: #AF0404;
+$red-ghost : #d48880;
+$red-primary-soft:#B04040;
+$dark-red-50: rgba(75, 1, 1, 0.5);
+$soft-red:#FEEEEE;
+$dark-red: #4B0101;
+$red-grey: #CDABAB;
+$red-grey-3:#8B7171;
+//gray
+$gray-bg: #f6f4f3;
+$background-grey: #fcfcfc;
+$light-grey: #ebebeb;
+$soft-grey: #C9C9C9;
+$dark-grey: #979797;
+$medium-grey: #6A6A6A;
+$softer-gray:#DDDDDD;
+//pink
+$soft-pink: #FFF7F7;
+//green
+$green : #03AFAF;
+$green-background: #C5F6F6;
+//yellow
+$soft-yellow : #FFFBEC;
+//black
+$dark-firefox:#2A2A2E;
+$dark-firefox-lighter: #38383D;
+$black:#000000;
+$dark-black:#212121;
+//other
+$text-color: #393c40;
+$placeholder-color: #1b9389;
+$inner-shadow : #f3c5c5;
+$hover: #FFF7F7;
+//family
+$raleway: 'Raleway', sans-serif;
+$inter:'Inter', sans-serif;
+$roboto:'Roboto', sans-serif;
+//leftSideBar
+$border-color: rgba(251, 82, 82, 0.4);
+$item-text-color: #ad8f94;
+$logo-background: #f9d8d8;
+$red-primary-soft: #b04040;
+$light-blue-for-cards: #c5f6f6;
+$secondary-inaya-lighter: #03afaf;
+$soft-red: #feeeee;
+/*f6f4f3
+$meduim-grey: #6a6a6a;
+$gray-bg: #f6f4f3;
+$dark-firefox: #2a2a2e;
+$darker-primary-inaya: #4b0101;
+$darker-primary-inaya-50: rgba(75, 1, 1, 0.5);
+$red-primary-soft: #b04040;
+$soft-red: #feeeee;
+*/

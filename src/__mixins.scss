@@ -1,0 +1,102 @@
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    @return #{$remSize}rem;
+  }
+  
+  @mixin fontSize($size) {
+    font-size: $size; //Fallback in px
+    font-size: calculateRem($size);
+  }
+
+  // flex column
+
+  @mixin flexible-column() {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @mixin flexible-column-center() {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @mixin flexible-column-space-between() {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  // flex row
+  
+  @mixin flexible-row(){
+      display: flex;
+      flex-direction: row;
+  }
+
+  @mixin flexible-row-align-end(){
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+  } 
+
+  @mixin flexible-row-end(){
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  } 
+
+  @mixin flexible-row-align-center {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @mixin flexible-row-align-baseline {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+  }
+
+  @mixin flexible-row-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  @mixin flexible-row-space-between {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  @mixin flexible-row-space-between-align-center {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+  @mixin flexible-row-center-align-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  @mixin flexible-row-start-align-center {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+  }
+  // text style
+  @mixin text-style($family,$style,$weight,$size,$color){
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    color: $color;
+  }
+
+  // to use the mixin just import this file by " @import "__mixins.scss";" in the scss file then use the mixin by replacing the "font-size : Xpx;" by "@include  fontSize(Xpx);"
