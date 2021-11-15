@@ -92,8 +92,14 @@ const ProjectItem = ({ element }: ProjectItemProps) => {
           />
         }
         actions={[
-          <SettingOutlined key="setting" />,
-          <EditOutlined key="edit" />,
+          <SettingOutlined 
+            key="setting" 
+            onClick={() => setIsModalVisible(true)}
+           />,
+          <EditOutlined
+            key="edit"
+            onClick={() => setIsModalVisible(true)}
+           />,
           <EllipsisOutlined
             key="ellipsis"
             onClick={() => setIsModalVisible(true)}
